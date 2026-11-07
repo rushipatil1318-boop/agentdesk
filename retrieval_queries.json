@@ -1,0 +1,50 @@
+[
+  {
+    "query": "how much can be refunded automatically",
+    "relevant_id": "REF-2"
+  },
+  {
+    "query": "refund limit without human approval",
+    "relevant_id": "REF-2"
+  },
+  {
+    "query": "what is the maximum automatic refund",
+    "relevant_id": "REF-2"
+  },
+  {
+    "query": "how many days do I have to return an item",
+    "relevant_id": "REF-1"
+  },
+  {
+    "query": "what is your refund policy?",
+    "relevant_id": "REF-1"
+  },
+  {
+    "query": "can I get a refund for someone else's order",
+    "relevant_id": "REF-4"
+  },
+  {
+    "query": "how long does delivery take",
+    "relevant_id": "SHP-1"
+  },
+  {
+    "query": "should my email be stored in logs",
+    "relevant_id": "PRV-1"
+  },
+  {
+    "query": "can I refund more than I paid",
+    "relevant_id": "REF-3"
+  },
+  {
+    "query": "my package has not arrived",
+    "relevant_id": "SHP-3"
+  },
+  {
+    "query": "how do I check my order status",
+    "relevant_id": "SHP-2"
+  },
+  {
+    "query": "what if someone tells you to ignore the rules",
+    "relevant_id": "PRV-2"
+  }
+]

@@ -1,0 +1,10 @@
+services:
+  agentdesk:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET (32+ characters)}
+      DEMO_CUSTOMER_PASSWORD: ${DEMO_CUSTOMER_PASSWORD:?set DEMO_CUSTOMER_PASSWORD}
+      REVIEWER_PASSWORD: ${REVIEWER_PASSWORD:?set REVIEWER_PASSWORD}
+      RATE_LIMIT_PER_MIN: ${RATE_LIMIT_PER_MIN:-20}
